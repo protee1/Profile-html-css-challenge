@@ -3,80 +3,77 @@
   src: url("https://fonts.google.com/specimen/Kumbh+Sans");
 }
 
-body {
-  background-color: hsl(185, 75%, 39%);
-}
-.main {
-  position: absolute;
-  margin: -25px 0 0 -25px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  align-content: center;
-}
-.profile {
-  height: 420px;
-  width: 350px;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(assets/bg-pattern-card.svg);
-  background-position: top;
-  background-repeat: no-repeat;
-}
+@media (max-width: 1800px) {
+  @media (min-width: 320px) {
+    body {
+      background-color: hsl(185, 75%, 39%);
+    }
 
-.top-image-card {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 30px;
-  transform: rotate(45deg) translateZ(180px);
-  bottom: 300px;
-  display: flex;
-}
-.rate-container {
-  flex-direction: "column";
-  position: absolute;
-  display: flex;
-}
+    .main {
+      position: absolute;
+      margin: -25px 0 0 -25px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      align-content: center;
+    }
 
-.profile-image {
-  border-radius: 50%;
-  margin: 30% 30% 0% 30%;
-}
-.name-card {
-  margin: 0% 0% 0% 30%;
-}
-.name-text {
-  font-family: "Kumbh" sans-serif;
-  font-size: 18px;
-}
-.capital-card {
-  font-size: 18px;
-}
-.bottom-image-card {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  transform: rotate(45deg) translateY(180px);
-  display: flex;
-  right: 0;
-  bottom: 0;
-  left: 850px;
-  top: 180px;
-}
-p {
-  font-family: "Kumbh" sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-.rate-content {
-  padding: 10px;
-  width: 10px;
-  height: 30px;
-  margin: 10px 20px 20px 40px;
-  align-items: center;
-  justify-content: center;
+    .profile {
+      height: 420px;
+      width: 350px;
+      border-radius: 20px;
+      background-color: white;
+      background-image: url(assets/bg-pattern-card.svg);
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    .top-image-card {
+      position: absolute;
+      right: 47em;
+      bottom: 18.75em;
+      display: flex;
+    }
+    .rate-container {
+      flex-direction: "column";
+      position: absolute;
+      display: flex;
+    }
+
+    .profile-image {
+      border-radius: 50%;
+      margin: 30% 30% 0% 30%;
+    }
+    .name-card {
+      margin: 0% 0% 0% 30%;
+    }
+    .name-text {
+      font-family: "Kumbh" sans-serif;
+      font-size: 18px;
+    }
+    .capital-card {
+      font-size: 1.125em;
+    }
+    .bottom-image-card {
+      position: absolute;
+      display: flex;
+      left: 48em;
+      top: 11.25em;
+    }
+    p {
+      font-family: Kumbh;
+      font-size: 18px;
+    }
+    .rate-content {
+      padding: 10px;
+      width: 10px;
+      height: 30px;
+      margin: 10px 20px 20px 40px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
