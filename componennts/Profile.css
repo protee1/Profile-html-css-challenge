@@ -1,37 +1,12 @@
 @import url(https://fonts.google.com/specimen/Kumbh+Sans);
 body {
-  margin: auto;
-  margin-top: 80px;
-  background: hsl(185, 75%, 39%);
-  height: 80vh;
-  position: relative;
+  background-color: hsl(185, 75%, 39%);
+}
+.top-image-card {
+  position: absolute;
+  right: 47em;
+  bottom: 16em;
   display: flex;
-  width: auto;
-}
-body::before {
-  content: "";
-  background: url("assets/bg-pattern-top.svg");
-  background-repeat: no-repeat;
-  background-position: 30px;
-  height: 600px;
-  width: 80%;
-  transform: rotate(-5deg);
-  position: absolute;
-  top: -16rem;
-  right: 43rem;
-  z-index: -1;
-}
-body::after {
-  content: "";
-  background: url("assets/bg-pattern-bottom.svg");
-  background-repeat: no-repeat;
-  background-size: 1000px;
-  height: 450px;
-  width: 43%;
-  position: absolute;
-  top: 7rem;
-  left: 48.6rem;
-  z-index: -1;
 }
 .container {
   display: flex;
@@ -89,6 +64,4 @@ h1 {
   display: flex;
   left: 48em;
   top: 12em;
-  opacity: 0.5;
-  transform: rotate(120deg);
 }
